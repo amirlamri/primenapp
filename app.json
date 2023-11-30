@@ -4,12 +4,13 @@
     "slug": "primenapp",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme": "primenapp",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "adaptive",
+      "backgroundColor": "#FFFFDB"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
