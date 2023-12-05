@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     },
     card : {
         backgroundColor: "#fff",
-        width : 272,
+        width : 300,
         height : 465,
         borderStyle : "solid",
         borderWidth : 3,
@@ -18,13 +18,23 @@ const styles = StyleSheet.create({
     } ,
 
     text : {
-            padding : 10, 
+            padding : 5, 
             fontFamily : FONTS.normal,
-        
-            
+            width : 250,         
     },
     button :{
         paddingTop: 20,
+
+    },
+    inline :{
+        flexDirection : "row",
+        flexWrap : 'wrap',
+        width : 600,
+        marginTop:25,
+    },
+    icon :{
+        margin : 5,
+        
     }
 })
 export default styles;

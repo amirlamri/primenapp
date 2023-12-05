@@ -26,14 +26,19 @@ export default function Button(props:forstupidprops) {
         flexShrink : 0,
         borderStyle: "solid",
         borderWidth: 3,
-        width : 272,
+        width : 300,
         height : 62
       },
      primary : {
         fontFamily : FONTS.thisbold,
-        textAlign : 'center',
+      
         fontSize : SIZES.large,
-       
+       justifyContent:'center',
+       alignItems:'center',
+
+       marginLeft : '10%',
+       marginTop : '5%'
+
 
 
       }
