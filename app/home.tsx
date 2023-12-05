@@ -17,6 +17,8 @@ const Home = () => {
       />
 
         <Menu/>
+
+        
         
     </SafeAreaView>
     

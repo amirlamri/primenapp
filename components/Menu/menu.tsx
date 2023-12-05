@@ -3,9 +3,10 @@ import React from 'react';
 import styles from '../Menu/menu.style';
 import Button from '../buttons/buttons';
 import { FONTS,COLORS} from '../../constants';
-
+import { router, useNavigation, useRouter, Link} from 'expo-router';
 
 const Menu = () => {
+  const router =useRouter();
   return (
     <View style={{alignItems: 'center',marginTop:35}}>
    
@@ -37,9 +38,11 @@ const Menu = () => {
         </Text>
         </View>
         </View>
-        <Pressable style = {[styles.button]}>
-        <Image source={require('../../assets/icons/PolygonR.png')} />
+        <Link   href={'/job'} asChild > 
+        <Pressable   >
+        <Image style = {[styles.button]}  source={require('../../assets/icons/PolygonR.png')} />
         </Pressable>
+        </Link>
     </View>
   )
 }

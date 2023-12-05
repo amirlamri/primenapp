@@ -39,7 +39,5 @@ export default function Button(props:forstupidprops) {
        marginLeft : '10%',
        marginTop : '5%'
 
-
-
       }
     });
